@@ -1,7 +1,6 @@
 # code your #valid_move? method here
 
-def valid_move?(board, input)
-  index = input.to_i - 1
+def valid_move?(board, index)
   if (!(position_taken?(board, index)) )
     return true
   else
